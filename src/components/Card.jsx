@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({post}) => {
   return (
     <div className='flex flex-col gap-y-2'>
-        <p className='font-medium py-3'>{post.title}</p>
+        <p className='font-large py-3'>{post.title}</p>
         <p className='text-[14px]'>
             By <span className='italic'>{post.author}</span> on <span className='font-medium underline'>{post.author}</span>
         </p>
